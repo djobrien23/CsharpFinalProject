@@ -1,5 +1,5 @@
-# CsharpFinalProject
-Language C#. Final Project
+﻿# CsharpFinalProject
+Language C#. Final Project (shows use of jagged array, database connection/parameterized queries, regular experessions, and delegates)
 
 Derek O'Brien
 Cis 232 Section 01
@@ -109,7 +109,7 @@ I also learned to take the query results that I loaded into a listbox and select
 the first 4 characters of the string, which was the unique identity column value. I stored that value in a string and then accessed it from my new form and using that value did another query 
 of the database to load that specific vehicles information into the labels and picturebox on the vehicle specification page.
 
-Wanting to be able to hidden my user login form and still be able to close it so it wouldn't continue to run in the background when other forms were closed out I did some research and found a 
+Wanting to be able to hide my user login form and still be able to close it so it wouldn't continue to run in the background when other forms were closed out I did some research and found a 
 delegate that allowed me to close the login form when the menu form was closed. It was interesting and useful because I could not close out the login form while hidden or close it out with out 
 also closing the menu form. More details on the delegate can be in the delegate section of this paper.
 
